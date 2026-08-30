@@ -90,7 +90,7 @@ permalink: /publications/
   *Journal of Mathematical Physics* **59**, 062502, 2018.  
   [DOI](https://doi.org/10.1063/1.5017848)
 
-- **On the \(C^k\)-embedding of Lorentzian manifolds in Ricci-flat spaces**  
+- **On the C^k-embedding of Lorentzian manifolds in Ricci-flat spaces**  
   with F. Dahia and C. Romero.  
   *Journal of Mathematical Physics* **59**, 052503, 2018.  
   [DOI](https://doi.org/10.1063/1.5017492)
