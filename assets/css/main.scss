@@ -87,3 +87,28 @@
     font-size: 1.7rem;
   }
 }
+/* ==========================================================================
+   Full-width page layout for top-profile pages
+   ========================================================================== */
+
+#main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page {
+  float: none;
+  width: 100%;
+  padding-right: 0;
+}
+
+.page__inner-wrap {
+  width: 100%;
+}
+
+.page__content {
+  width: 100%;
+}
