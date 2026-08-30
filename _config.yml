@@ -23,21 +23,21 @@ repository : "rodrigo-avalos/rodrigo-avalos.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Rodrigo Avalos"
+  pronouns         : # example: "he/his"  
+  bio              : "Geometric analysis, elliptic PDEs, conformal geometry and mathematical relativity"
+  location         : "Rostock, Germany"
+  employer         : "Institut für Mathematik, Universität Rostock"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rodrigo.avalos [at] uni-rostock.de" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22Avalos%2C+Rodrigo%22&terms-0-field=author&terms-1-operator=NOT&terms-1-term=Alonzo&terms-1-field=author&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first"
+  googlescholar    : "https://scholar.google.com/citations?user=xNxvgmUAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-2480-3700"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
