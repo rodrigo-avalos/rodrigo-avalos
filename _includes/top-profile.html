@@ -1,0 +1,46 @@
+<div class="top-profile">
+
+  <div class="top-profile__photo">
+    <img src="{{ '/images/profile.png' | relative_url }}"
+         alt="{{ site.author.name }}">
+  </div>
+
+  <div class="top-profile__content">
+
+    <h1>{{ site.author.name }}</h1>
+
+    {% if site.author.bio %}
+      <p>{{ site.author.bio }}</p>
+    {% endif %}
+
+    {% if site.author.employer %}
+      <p>{{ site.author.employer }}</p>
+    {% endif %}
+
+    {% if site.author.location %}
+      <p>{{ site.author.location }}</p>
+    {% endif %}
+
+    <div class="top-profile__links">
+
+      {% if site.author.orcid %}
+        <a href="{{ site.author.orcid }}">ORCID</a>
+      {% endif %}
+
+      {% if site.author.googlescholar %}
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      {% endif %}
+
+      {% if site.author.arxiv %}
+        <a href="{{ site.author.arxiv }}">arXiv</a>
+      {% endif %}
+
+      {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}">Email</a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</div>
