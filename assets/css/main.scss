@@ -37,3 +37,53 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* ==========================================================================
+   Custom top profile
+   ========================================================================== */
+
+.top-profile {
+  max-width: 900px;
+  margin: 2.5rem auto 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.top-profile__photo {
+  margin-bottom: 1rem;
+}
+
+.top-profile__photo img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top-profile__content h1 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.top-profile__content p {
+  margin: 0.3rem 0;
+}
+
+.top-profile__links {
+  margin-top: 1rem;
+}
+
+.top-profile__links a {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .top-profile__photo img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .top-profile__content h1 {
+    font-size: 1.7rem;
+  }
+}
