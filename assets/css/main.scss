@@ -112,3 +112,18 @@
 .page__content {
   width: 100%;
 }
+/* ==========================================================================
+   Justified body text
+   ========================================================================== */
+
+.page__content p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+@media (max-width: 600px) {
+  .page__content p {
+    text-align: left;
+  }
+}
